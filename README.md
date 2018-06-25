@@ -10,8 +10,12 @@ For my project at the sanger I had 3 cellranger runs:
     "cellranger210_count_24933_5149STDY7274848_Danio_rerio_GRCz10_91"
 
 I therefore had three directories, one for each cellranger run. Within each directory I had:
-    1) a .bam file named possorted_genome_bam.bam
-    2) a list of all barcodes of interest called e.g. cellranger210_count_24933_5149STDY7274846_Danio_rerio_GRCz10_91_barcodes.tsv
+
+1) a .bam file named possorted_genome_bam.bam
+
+2) a list of all barcodes of interest called
+
+e.g. cellranger210_count_24933_5149STDY7274846_Danio_rerio_GRCz10_91_barcodes.tsv
     
 All shell scripts are intended to be run in the directory directly above the experiment directories. 
 
