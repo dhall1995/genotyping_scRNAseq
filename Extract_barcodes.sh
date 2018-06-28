@@ -9,8 +9,6 @@ samples=("cellranger210_count_24933_5149STDY7274846_Danio_rerio_GRCz10_91" "cell
 #script assumes there is no dirrectory named out within the current directory. Results are placed in the out folder once 
 #it is created.
 mkdir out
-#Creates directory to eventually store the product of merging all cell-associated BAMs from a given experiment
-mkdir out/merged
 
 touch mark1
 
